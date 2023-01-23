@@ -116,7 +116,7 @@ session_start();
 		<div id="bar2">
 			
 			<form method="post">
-				Log in to Mybook<br><br>
+				Entrar <br><br>
 
 				<input name="email" value="<?php echo $email ?>" type="text" id="text" placeholder="Email"><br><br>
 				<input name="password" value="<?php echo $password ?>" type="password" id="text" placeholder="Password"><br><br>
