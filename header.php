@@ -22,7 +22,7 @@
 	<form method="get" action="<?=ROOT?>search">
 		<div style="width: 800px;margin:auto;font-size: 30px;">
 			
-			<a href="<?=ROOT?>home" style="color: white;">Mybook</a> 
+			<a href="<?=ROOT?>home" style="color: white;">My Faceboob</a> 
 			&nbsp &nbsp <input type="text" id="search_box" name="find" placeholder="Search for people" />
 
 			<?php if(isset($USER)): ?>
@@ -30,7 +30,7 @@
 				<img src="<?php echo ROOT . $corner_image ?>" style="width: 50px;float: right;">
 				</a>
 				<a href="<?=ROOT?>logout">
-				<span style="font-size:11px;float: right;margin:10px;color:white;">Logout</span>
+				<span style="font-size:11px;float: right;margin:10px;color:white;">Sair</span>
 				</a>
 
 				<a href="<?=ROOT?>notifications">
