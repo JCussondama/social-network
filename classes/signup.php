@@ -13,41 +13,41 @@ class Signup
 
 			if(empty($value))
 			{
-				$this->error = $this->error . $key . " is empty!<br>";
+				$this->error = $this->error . $key . " campo vazio!<br>";
 			}
 
 			if($key == "email")
 			{
 				if (!preg_match("/([\w\-]+\@[\w\-]+\.[\w\-]+)/",$value)) {
         
- 					$this->error = $this->error . "invalid email address!<br>";
+ 					$this->error = $this->error . "email inválido!<br>";
     			}
 			}
 
-			if($key == "Primeiro nome")
+			if($key == "primeiro nome")
 			{
 				if (is_numeric($value)) {
         
- 					$this->error = $this->error . "first name cant be a number<br>";
+ 					$this->error = $this->error . "nome, não pode ser número<br>";
     			}
 
     			if (strstr($value, " ")) {
         
- 					$this->error = $this->error . "first name cant have spaces<br>";
+ 					$this->error = $this->error . "não pode ter espaço<br>";
     			}
  
 			}
 
-			if($key == "last_name")
+			if($key == "ultimo nome")
 			{
 				if (is_numeric($value)) {
         
- 					$this->error = $this->error . "last name cant be a number<br>";
+ 					$this->error = $this->error . "nome, não pode ser número<br>";
     			}
 
     			if (strstr($value, " ")) {
         
- 					$this->error = $this->error . "last name cant have spaces<br>";
+ 					$this->error = $this->error . "não pode ter espaço<br>";
     			}
 
 			}
