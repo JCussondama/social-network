@@ -24,7 +24,7 @@ class Signup
     			}
 			}
 
-			if($key == "first_name")
+			if($key == "Primeiro nome")
 			{
 				if (is_numeric($value)) {
         
