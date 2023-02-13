@@ -76,7 +76,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Profile | Mybook</title>
+		<title>Perfil | Meu diário</title>
 	</head>
 
 	<style type="text/css">
@@ -327,17 +327,17 @@
 				<br>
 
 
-				<a href="<?=ROOT?>home"><div id="menu_buttons">Timeline</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/about"><div id="menu_buttons">About</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/followers"><div id="menu_buttons">Followers</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/following"><div id="menu_buttons">Following</div></a>
-				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/photos"><div id="menu_buttons">Photos</div></a>
+				<a href="<?=ROOT?>home"><div id="menu_buttons">Linha de tempo</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/about"><div id="menu_buttons">Sobre</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/followers"><div id="menu_buttons">Seguidores</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/following"><div id="menu_buttons">seguindo</div></a>
+				<a href="<?=ROOT?>profile/<?php echo $user_data['userid'] ?>/photos"><div id="menu_buttons">Fotos</div></a>
 				
 				<?php 
 					if($user_data['userid'] == $_SESSION['mybook_userid']){
 						
-						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/groups"><div id="menu_buttons">Groups</div></a>';
-						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/settings"><div id="menu_buttons">Settings</div></a>';
+						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/groups"><div id="menu_buttons">Grupos</div></a>';
+						echo '<a href="'.ROOT. 'profile/'.$user_data['userid'].'/settings"><div id="menu_buttons">Definições</div></a>';
 					}
 				?>
 			</div>
