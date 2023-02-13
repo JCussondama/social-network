@@ -24,7 +24,7 @@
 
 		}else{
 
-			echo "No groups were found!";
+			echo "Nenhum grupo foi encontrado!";
 		}
 
 

@@ -18,7 +18,7 @@
 
 		}else{
 
-			echo "No followers were found!";
+			echo "Nenhum seguidor foi encontrado!";
 		}
 
 

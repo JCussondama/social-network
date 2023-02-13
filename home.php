@@ -47,7 +47,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Timeline | Mybook</title>
+		<title>Linha de tempo | meu diário</title>
 	</head>
 
 	<style type="text/css">

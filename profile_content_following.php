@@ -18,7 +18,7 @@
 
 		}else{
 
-			echo "This user inst following anyone!";
+			echo "Este usuário não está seguindo ninguém!";
 		}
 
 
