@@ -381,8 +381,6 @@
 	 				include("profile_content_groups.php");
 	 			}
 
-
-
 	 		?>
 
 		</div>
