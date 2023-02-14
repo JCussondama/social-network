@@ -20,7 +20,7 @@
 
 		}else{
 
-			echo "No images were found!";
+			echo "Nenhuma imagem foi encontrada!";
 		}
 
 

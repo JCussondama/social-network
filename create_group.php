@@ -34,7 +34,7 @@
 		{
 
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-			echo "<br>The following errors occured:<br><br>";
+			echo "<br>Ocorreram os seguintes erros<br><br>";
 			echo $result;
 			echo "</div>";
 		}else

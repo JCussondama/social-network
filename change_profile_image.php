@@ -101,8 +101,8 @@
 				{
 
 					echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-					echo "<br>The following errors occured:<br><br>";
-					echo "Only images of size 3Mb or lower are allowed!";
+					echo "<br>Ocorreram os seguintes erros:<br><br>";
+					echo "Apenas imagens de tamanho 3Mb ou inferior são permitidas!";
 					echo "</div>";
 
 				}
@@ -110,8 +110,8 @@
 			{
 
 				echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-				echo "<br>The following errors occured:<br><br>";
-				echo "Only images of Jpeg type are allowed!";
+				echo "<br>Ocorreram os seguintes erros:<br><br>";
+				echo "Somente imagens do tipo Jpeg são permitidas!";
 				echo "</div>";
 
 			}
@@ -119,8 +119,8 @@
 		}else
 		{
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-			echo "<br>The following errors occured:<br><br>";
-			echo "please add a valid image!";
+			echo "<br>Ocorreram os seguintes erros:<br><br>";
+			echo "por favor, adicione uma imagem válida!";
 			echo "</div>";
 		}
 		

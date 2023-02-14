@@ -19,7 +19,7 @@
 
 		}else{
 
-			echo "No followers to invite were found!";
+			echo "Nenhum seguidor para convidar foi encontrado!";
 		}
 
 

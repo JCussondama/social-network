@@ -20,7 +20,7 @@
 
 		}else{
 
-			echo "No requests were found!";
+			echo "Nenhuma solicitação foi encontrada!";
 		}
 
 	?>

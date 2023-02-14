@@ -26,7 +26,7 @@
 
 								}else{
 
-									echo "This group has no members";
+									echo "Este grupo não tem membros";
 								}
 
 							?>

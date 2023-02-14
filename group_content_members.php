@@ -29,7 +29,7 @@
 			}
 
 				echo "<form method='post'>
-				Change user access<br><br>
+				Alterar o acesso do usuário<br><br>
 				<div style='background-color:orange;color:white;padding:1em;text-align:center;'>
 				Warning! giving users admin access also gives them the power to remove you as admin</div>
 				";
@@ -41,9 +41,9 @@
 				echo '<br><br>
 					<select name="role" style="padding:5px;width:200px;">
 						<option>'.$role.'</option>
-						<option>member</option>
-						<option>moderator</option>
-						<option>admin</option>
+						<option>membro</option>
+						<option>moderador</option>
+						<option>administrador</option>
 					</select>
 					<input type="hidden" name="userid" value="'.htmlspecialchars($_GET['edit_access']).'">
 				<br>

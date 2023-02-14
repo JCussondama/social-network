@@ -20,7 +20,7 @@
 
 		}else{
 
-			echo "No invitations were found!";
+			echo "Nenhum convite foi encontrado!";
 		}
 
 

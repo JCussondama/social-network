@@ -192,7 +192,7 @@
 								 		echo $ERROR;
 								 	}else{
 
-	  									echo "Edit Post<br><br>";
+	  									echo "Editar Post<br><br>";
  										
  										echo '<textarea name="post" placeholder="Whats on your mind?">'.$ROW['post'].'</textarea>
 	 											<input type="file" name="file">';
