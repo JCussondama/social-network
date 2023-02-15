@@ -16,18 +16,20 @@
 					echo "<select id='textbox' name='group_type' style='height:30px;width:104%;'>
 
 							<option>".htmlspecialchars($settings['group_type'])."</option>
-							<option>Public</option>
-							<option>Private</option>
+							<option>Publico</option>
+							<option>Privado</option>
 						</select>";
 
- 					echo "<br>About me:<br>
+ 					echo "<br>Sobre mim:<br>
 							<textarea id='textbox' style='height:200px;' name='about'>".htmlspecialchars($settings['about'])."</textarea>
 						";
 
-					echo '<input id="post_button" type="submit" value="Save">';
+					echo '<input id="post_button" type="enviar" value="Salvar">';
 				}
 				
 			?>
+
+
 
 		</form>
 	</div>

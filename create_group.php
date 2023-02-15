@@ -245,11 +245,11 @@
 				<input value="<?php echo $group_name ?>" name="group_name" type="text" id="text" placeholder="Group Name" autofocus required><br><br>
  
  				<select id="text" name="group_type">
- 					<option>Public</option>
- 					<option>Private</option>
+ 					<option>Publico</option>
+ 					<option>Privado</option>
  				</select><br>
   				<br>
-				<input type="submit" id="button" value="Create">
+				<input type="enviar" id="button" value="Criar">
 				<br><br><br>
 
 			</form>

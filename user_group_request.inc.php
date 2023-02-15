@@ -50,7 +50,7 @@
 
 			if($invited && isset($INVITER_ROW)){
 
-				echo "You were invited by " . $INVITER_ROW['first_name'] . " " . $INVITER_ROW['last_name'] . "<br><br>";
+				echo "Você foi convidado por" . $INVITER_ROW['first_name'] . " " . $INVITER_ROW['last_name'] . "<br><br>";
 			}
 		?>
 		<a href="<?=ROOT?>group_request_accept/<?=$group_data['userid']?>/<?=$FRIEND_ROW['userid']?>/decline">

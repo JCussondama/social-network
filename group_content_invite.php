@@ -25,7 +25,7 @@
 
 	?>
 	<?php else: ?>
-		You must be a member to invite others
+		Você deve ser um membro para convidar outras pessoas
 	<?php endif; ?>
 	</div>
 </div>

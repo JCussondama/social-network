@@ -255,12 +255,12 @@
 		  									include("message_left.php");
 
 		  									echo "<input type='hidden' name='id' value='$MESSAGE[id]'>";
-		 									echo "<input id='post_button' type='submit' value='Delete'>";
+		 									echo "<input id='post_button' type='enviar' value='Eliminar'>";
 		 								}else
 	 									if(isset($URL[1]) && $URL[1] == "thread")
 										{
 
-		  									echo "Are you sure you want to delete this thread??<br><br>";
+		  									echo "Tem certeza que deseja excluir este tópico??<br><br>";
 
 											$user = new User();
 		 									$ROW_USER = $user->get_user($MESSAGE['sender']);
@@ -268,12 +268,12 @@
 		  									include("message_left.php");
 
 		  									echo "<input type='hidden' name='id' value='$MESSAGE[msgid]'>";
-		 									echo "<input id='post_button' type='submit' value='Delete'>";
+		 									echo "<input id='post_button' type='enviar' value='Eliminar'>";
 	 									
 										}else
 										{
 
-		  									echo "Are you sure you want to delete this post??<br><br>";
+		  									echo "Tem certeza de que deseja excluir esta postagem??<br><br>";
 
 											$user = new User();
 		 									$ROW_USER = $user->get_user($ROW['userid']);
@@ -281,7 +281,7 @@
 		  									include("post_delete.php");
 
 		  									echo "<input type='hidden' name='postid' value='$ROW[postid]'>";
-		 									echo "<input id='post_button' type='submit' value='Delete'>";
+		 									echo "<input id='post_button' type='enviar' value='Eliminar'>";
 	 									
 										}
  									}

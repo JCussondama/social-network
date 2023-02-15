@@ -57,7 +57,7 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>Messages | Mybook</title>
+		<title>mensagens | Mybook</title>
 	</head>
 
 	<style type="text/css">
@@ -279,13 +279,13 @@
 
 	  										}else{
 
-	  											echo "That user could not be found<br><br>";
+	  											echo "Esse usuário não foi encontrado<br><br>";
 	  										}
 
 								 		}else
 								 		if(isset($URL[1]) && $URL[1] == "new"){
 
-	  										echo "Start New Message with:<br><br>";
+	  										echo "Iniciar nova mensagem com:<br><br>";
 	  										if(isset($URL[2]) && is_numeric($URL[2])){
 	  											
 	  											$user = new User();
@@ -313,7 +313,7 @@
 
 								 		}else{
 
-	  										echo "Messages<br><br>";
+	  										echo "Mensages<br><br>";
 		  									$data = $msg_class->read_threads();
 		  									$user = new User();
 		  									$me = esc($_SESSION['mybook_userid']);
@@ -328,7 +328,7 @@
 			  										include("thread.php");
 			  									}
 		  									}else{
-		  										echo "You have no messages!";
+		  										echo "Você não tem mensagens!";
 		  									}
 
 		  									echo "<br style='clear:both;'>";

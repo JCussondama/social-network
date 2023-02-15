@@ -19,7 +19,7 @@
 		{
 
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-			echo "<br>The following errors occured:<br><br>";
+			echo "<br>Ocorreram os seguintes erros:<br><br>";
 			echo $result;
 			echo "</div>";
 		}else
@@ -120,24 +120,24 @@
 
 			<form method="post" action="">
 
-				<input value="<?php echo $first_name ?>" name="first_name" type="text" id="text" placeholder="First name"><br><br>
-				<input value="<?php echo $last_name ?>" name="last_name" type="text" id="text" placeholder="Last name"><br><br>
+				<input value="<?php echo $first_name ?>" name="Primeiro Nome" type="text" id="text" placeholder="First name"><br><br>
+				<input value="<?php echo $last_name ?>" name="Último nome" type="text" id="text" placeholder="Last name"><br><br>
 
 				<span style="font-weight: normal;">Gender:</span><br>
 				<select id="text" name="gender">
 					
 					<option><?php echo $gender ?></option>
-					<option>Male</option>
-					<option>Female</option>
+					<option>Masculino</option>
+					<option>Feminina</option>
 
 				</select>
 				<br><br>
 				<input value="<?php echo $email ?>" name="email" type="text" id="text" placeholder="Email"><br><br>
 				
-				<input name="password" type="password" id="text" placeholder="Password"><br><br>
-				<input name="password2" type="password" id="text" placeholder="Retype Password"><br><br>
+				<input name="Palavra Passe  type="password" id="text" placeholder="Password"><br><br>
+				<input name="Palavra Passe 2" type="password" id="text" placeholder="Retype Password"><br><br>
 
-				<input type="submit" id="button" value="Sign up">
+				<input type="enviar" id="button" value="Inscrever-se">
 				<br><br><br>
 
 			</form>

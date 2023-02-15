@@ -11,7 +11,7 @@
 
 				if(is_array($settings)){
  
-					echo "<br>About me:<br>
+					echo "<br> Sobre mim:<br>
 							<div id='textbox' style='height:200px;border:none;' >".htmlspecialchars($settings['about'])."</div>
 						";
 

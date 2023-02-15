@@ -45,7 +45,7 @@
 			{
 
 				echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-				echo "<br>The following errors occured:<br><br>";
+				echo "<br>Ocorreram os seguintes erros:<br><br>";
 				echo $result;
 				echo "</div>";
 			}
@@ -210,7 +210,7 @@
 	 					<div style="border:solid thin #aaa; padding: 10px;background-color: white;">
 
 	 						<input type="file" name="file"><br>
-	 						<input id="post_button" type="submit" style="width:120px;" value="Change">
+	 						<input id="post_button" type="enviar" style="width:120px;" value="Change">
 	 						<br>
 							<div style="text-align: center;">
 								<br><br>
@@ -234,7 +234,7 @@
 	 					<div style="border:solid thin #aaa; padding: 10px;background-color: white;">
 
 	 						<input type="file" name="file"><br>
-	 						<input id="post_button" type="submit" style="width:120px;" value="Change">
+	 						<input id="post_button" type="enviar" style="width:120px;" value="Change">
 	 						<br>
 							<div style="text-align: center;">
 								<br><br>
@@ -313,11 +313,11 @@
 
 						<?php if($user_data['userid'] == $_SESSION['mybook_userid']): ?>
 							<a href="<?=ROOT?>messages">
-								<input id="post_button" type="button" value="Messages" style="margin-right:10px;background-color: #1b9186;width:auto;">
+								<input id="post_button" type="button" value="Mensagens" style="margin-right:10px;background-color: #1b9186;width:auto;">
 							</a>
 						<?php else: ?>
 							<a href="<?=ROOT?>messages/new/<?=$user_data['userid']?>">
-								<input id="post_button" type="button" value="Message" style="margin-right:10px;background-color: #1b9186;width:auto;">
+								<input id="post_button" type="button" value="Mensagem" style="margin-right:10px;background-color: #1b9186;width:auto;">
 							</a>
 						<?php endif; ?>
  						

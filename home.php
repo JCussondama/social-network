@@ -203,7 +203,7 @@
 
 	 						<textarea name="post" placeholder="Whats on your mind?"></textarea>
 	 						<input type="file" name="file">
-	 						<input id="post_button" type="submit" value="Post">
+	 						<input id="post_button" type="enviar" value="Post">
 	 						<br>
  						</form>
  					</div>

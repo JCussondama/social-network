@@ -19,7 +19,7 @@ session_start();
 		{
 
 			echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-			echo "<br>The following errors occured:<br><br>";
+			echo "<br>os seguintes erros ocorreram:<br><br>";
 			echo $result;
 			echo "</div>";
 		}else
@@ -45,7 +45,7 @@ session_start();
 
 	<head>
 		
-		<title>Mybook | Log in</title>
+		<title>Mybook | Conecte-se</title>
 	</head>
 
 	<style>
@@ -121,7 +121,7 @@ session_start();
 				<input name="email" value="<?php echo $email ?>" type="text" id="text" placeholder="Email"><br><br>
 				<input name="password" value="<?php echo $password ?>" type="password" id="text" placeholder="Password"><br><br>
 
-				<input type="submit" id="button" value="Log in">
+				<input type="enviar" id="button" value="Log in">
 				<br><br><br>
 
 			</form>

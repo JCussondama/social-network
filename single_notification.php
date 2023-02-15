@@ -60,26 +60,26 @@
 				if($actor['userid'] != $id){
 					echo $actor['first_name'] . " " . $actor['last_name'];
 				}else{
- 					echo "You ";
+ 					echo "Você ";
 				}
 
  				if($notif_row['activity'] == "like"){
-					echo " liked ";
+					echo " Gostos ";
 				}else
 				if($notif_row['activity'] == "follow"){
-					echo " followed ";
+					echo "seguido ";
 				}else
 				if($notif_row['activity'] == "comment"){
-					echo " commented ";
+					echo " comentou";
 				}else
 				if($notif_row['activity'] == "tag"){
-					echo " tagged ";
+					echo " marcado ";
 				}else
 				if($notif_row['activity'] == "role"){
-					echo " changed your access to ";
+					echo " alterou seu acesso a";
 				}else
 				if($notif_row['activity'] == "invite"){
-					echo " invited you to ";
+					echo " convidou você para ";
 				}
 
 
@@ -87,13 +87,13 @@
 					echo $owner['first_name'] . " " . $owner['last_name'] . "'s ";
 
 				}elseif($notif_row['activity'] == "tag"){
-					echo " you in a ";
+					echo " você em um";
 				}else{
 
 					if($notif_row['activity'] == "invite" || $notif_row['activity'] == "role"){
 						echo " a ";
 					}else{
- 						echo " your ";
+ 						echo " seu ";
 					}
  					
 				}
@@ -103,7 +103,7 @@
 				if($notif_row['content_type'] == "post"){
 
 					if($content_row['has_image']){
-						echo "image";
+						echo "imagem";
 
 						if(file_exists($content_row['image']))
 						{

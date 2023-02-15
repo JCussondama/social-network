@@ -28,7 +28,7 @@
 		$likes = $Post->get_likes($URL[2],$URL[1]);
 	}else{
 
-		$ERROR = "No information post was found!";
+		$ERROR = "Nenhuma postagem de informações foi encontrada";
 	}
  
 ?>
@@ -36,7 +36,9 @@
 <!DOCTYPE html>
 	<html>
 	<head>
-		<title>People who like | Mybook</title>
+		<title>Pessoas que gostam |Mybook
+		
+		</title>
 	</head>
 
 	<style type="text/css">

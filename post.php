@@ -135,7 +135,7 @@
 			if($ROW['has_image'] && ($ext == "jpeg" || $ext == "jpg")){
 
 				echo "<a href='".ROOT."image_view/$ROW[postid]' >";
-				echo ". View Full Image . ";
+				echo ". VVer imagem completa. ";
 				echo "</a>";
 			}
 		?>
@@ -194,9 +194,9 @@
 			 		if($ROW['likes'] == 1){
 
 			 			if($i_liked){
-			 				echo "<div style='text-align:left;'>You liked this post </div>";
+			 				echo "<div style='text-align:left;'> Você gostou desta postagem </div>";
 			 			}else{
-			 				echo "<div style='text-align:left;'> 1 person liked this post </div>";
+			 				echo "<div style='text-align:left;'> 1 pessoa gostou deste post </div>";
 			 			}
 			 		}else{
 
@@ -208,7 +208,7 @@
 			 				}
 			 				echo "<div style='text-align:left;'> You and " . ($ROW['likes'] - 1) . " $text liked this post </div>";
 			 			}else{
-			 				echo "<div style='text-align:left;'>" . $ROW['likes'] . " other liked this post </div>";
+			 				echo "<div style='text-align:left;'>" . $ROW['Gosto'] . "outros gostaram deste post </div>";
 			 			}
 			 		}
 

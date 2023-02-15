@@ -225,7 +225,7 @@
 	 					<div style="border:solid thin #aaa; padding: 10px;background-color: white;">
 
 	 						<input type="file" name="file"><br>
-	 						<input id="post_button" type="submit" style="width:120px;" value="Change">
+	 						<input id="post_button" type="enviar" style="width:120px;" value="Change">
 	 						<br>
 							<div style="text-align: center;">
 								<br><br>

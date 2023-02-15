@@ -198,7 +198,7 @@
 	 											<input type="file" name="file">';
 
 	  									echo "<input type='hidden' name='postid' value='$ROW[postid]'>";
-	 									echo "<input id='post_button' type='submit' value='Save'>";
+	 									echo "<input id='post_button' type='enviar' value='Save'>";
 
 	 									if(file_exists($ROW['image']))
 										{

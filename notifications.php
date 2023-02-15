@@ -191,7 +191,7 @@
  							 	include("single_notification.php");
   					 		 endforeach; ?>
   					 	<?php else: ?>
-  					 			No notifications were found
+							Nenhuma notificação foi encontrada
   					 	<?php endif; ?>
 
  					</div>

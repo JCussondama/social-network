@@ -48,7 +48,7 @@
 					<input type="hidden" name="userid" value="'.htmlspecialchars($_GET['edit_access']).'">
 				<br>
 				
-	 			<input id="post_button" type="submit" value="Save" style="font-size:11px;margin-right:10px;background-color: #91261b;width:auto;">
+	 			<input id="post_button" type="enviar" value="Save" style="font-size:11px;margin-right:10px;background-color: #91261b;width:auto;">
 	 			<a href="'.ROOT.'group/'.$group_data['userid'].'/members">
 					<input id="post_button" type="button" value="Cancel" style="float:left;font-size:11px;margin-right:10px;background-color: #1b9186;width:auto;">
 				</a>
@@ -58,7 +58,7 @@
 		}else
 		if(isset($_GET['remove']) && (group_access($_SESSION['mybook_userid'],$group_data,'admin'))){
 
-			echo "Are you sure you want to remove this user from the group??<br><br>";
+			echo "Tem certeza que deseja remover este usuário do grupo??<br><br>";
 			$FRIEND_ROW = $user_class->get_user($_GET['remove']);
 			include("user.php");
 
@@ -86,13 +86,13 @@
 
 			}else{
 
-				echo "This group has no members";
+				echo "Este grupo não tem membros";
 			}
 		}
 
 	?>
 	<?php else: ?>
-		You dont have access to this content!
+		Você não tem acesso a este conteúdo!!
 	<?php endif; ?>
 	</div>
 </div>

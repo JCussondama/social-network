@@ -207,8 +207,8 @@
  					<form method="post" enctype="multipart/form-data">
 	 					<div style="border:solid thin #aaa; padding: 10px;background-color: white;">
 
-	 						<input type="file" name="file"><br>
-	 						<input id="post_button" type="submit" value="Change">
+	 						<input type="file" name="ficheiro"><br>
+	 						<input id="post_button" type="enviar" value="Change">
 	 						<br>
 							<div style="text-align: center;">
 								<br><br>

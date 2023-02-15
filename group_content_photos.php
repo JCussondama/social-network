@@ -26,7 +26,7 @@
 
 	?>
 	<?php else: ?>
-		You dont have access to this content!
+		Você não tem acesso a este conteúdo!
 	<?php endif; ?>
 	</div>
 </div>

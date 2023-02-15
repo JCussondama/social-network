@@ -34,7 +34,7 @@
 			{
 
 				echo "<div style='text-align:center;font-size:12px;color:white;background-color:grey;'>";
-				echo "<br>The following errors occured:<br><br>";
+				echo "<br>Ocorreram os seguintes erros:<br><br>";
 				echo $result;
 				echo "</div>";
 			}
@@ -228,7 +228,7 @@
 		 						<textarea name="post" placeholder="Post a comment"></textarea>
 		 						<input type="hidden" name="parent" value="<?php echo $ROW['postid'] ?>">
 		 						<input type="file" name="file">
-		 						<input id="post_button" type="submit" value="Post">
+		 						<input id="post_button" type="enviar" value="Post">
 		 						<br>
 	 						</form>
 	 					</div>
